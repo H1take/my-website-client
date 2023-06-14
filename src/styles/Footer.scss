@@ -1,0 +1,56 @@
+.footer {
+    margin-top: 40px;
+
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-logo {
+            img {
+                cursor: pointer;
+            }
+        }
+
+        &-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 400px;
+
+            span {
+                cursor: pointer;
+                color: #42446E;
+            }
+
+            img {
+                cursor: pointer;
+                width: 30px;
+                height: 30px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    &__line {
+        opacity: 0.3;
+        border: 2px solid #666666;
+    }
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-bottom: 20px;
+
+        &-buttons {
+            display: flex;
+            gap: 20px
+        }
+
+        &-subtitle {
+            margin-bottom: 15px;
+        }
+    }
+}

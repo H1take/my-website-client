@@ -18,6 +18,7 @@ import githubLink from "../../assets/icons/github-link.svg";
 import imageProject from '../../assets/images/image-project.png';
 
 import '../../styles/Home.scss';
+import Footer from '../ui/layout/footer/Footer';
 
 const Home = () => {
   return (
@@ -92,6 +93,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -15,12 +15,12 @@ const Header = () => {
         </Link>
       </div>
       <div className="header__buttons">
-        <Button link={'/home'}>Home</Button>
-        <Button link={'/about'}>About</Button>
-        <Button link={'/tech-stack'}>Tech Stack</Button>
-        <Button link={'/projects'}>Projects</Button>
-        <Button link={'/contact'}>Contact</Button>
-        <Button link={'/questions'}>Questions</Button>
+        <Button color={"#666666"} link={'/home'}>Home</Button>
+        <Button color={"#666666"} link={'/about'}>About</Button>
+        <Button color={"#666666"} link={'/tech-stack'}>Tech Stack</Button>
+        <Button color={"#666666"} link={'/projects'}>Projects</Button>
+        <Button color={"#666666"} link={'/contact'}>Contact</Button>
+        <Button color={"#666666"} link={'/questions'}>Questions</Button>
       </div>
     </div>
   );
