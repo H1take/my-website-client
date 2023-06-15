@@ -5,6 +5,8 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Home from './components/screens/Home';
 import Layout from './components/ui/layout/Layout';
 import About from './components/screens/About';
+import Stack from './components/screens/Stack';
+import Projects from './components/screens/Projects';
 
 import './styles/main/App.scss';
 
@@ -15,6 +17,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/tech-stack" element={<Stack />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </Layout>
     </div>

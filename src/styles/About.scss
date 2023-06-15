@@ -1,0 +1,27 @@
+.about {
+
+    &__main {
+
+        &-title {
+
+            span {
+                font-weight: 700;
+                font-size: 42px;
+                line-height: 52px;
+                color: #42446E;
+            }
+        }
+
+        &-info {
+            margin-top: 30px;
+            width: 708px;
+
+            span {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #666666;
+            }
+        }
+    }
+}

@@ -1,6 +1,4 @@
-import React from 'react';
-
-import Header from '../ui/layout/header/Header';
+import React, { useEffect, useState } from 'react';
 
 import "../../styles/About.scss";
 
