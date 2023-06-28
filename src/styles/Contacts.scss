@@ -1,0 +1,21 @@
+.contacts {
+
+    &__main {
+        height: 63vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &-text {
+            font-size: 52px;
+            color: #42446E;
+        }
+
+        &-text-gradient {
+            margin-top: 20px;
+            font-size: 46px;
+            color: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+        }
+    }
+}

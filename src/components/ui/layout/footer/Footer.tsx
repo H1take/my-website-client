@@ -7,6 +7,11 @@ import '../../../../styles/Footer.scss';
 import Button from '../../button/Button';
 
 const Footer = () => {
+
+  // const redirectToGithub = () => {
+  //   window.location.replace('https://github.com/H1take');
+  // }
+
   return (
     <div className="footer">
       <div className="footer__links">

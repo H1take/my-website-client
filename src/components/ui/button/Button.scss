@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     font: "DM Sans";
-    width: 120px;
+    width: auto;
     height: 26px;
     border: 0;
     font-weight: 500;
@@ -10,4 +10,6 @@
     line-height: 26px;
     cursor: pointer;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
